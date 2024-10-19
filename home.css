@@ -6,6 +6,10 @@ header {
     color: #000;
 }
 
+header h1 {
+    visibility: hidden;
+}
+
 nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
@@ -35,6 +39,11 @@ nav ul li a {
 
 nav ul li a:hover {
     color: cadetblue;
+}
+
+#home_banner {
+    width: 100%;
+    height: auto;
 }
 
 body {
