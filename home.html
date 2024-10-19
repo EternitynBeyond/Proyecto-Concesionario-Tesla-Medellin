@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +8,8 @@
 </head>
 
 <body>
-
     <header>
-        <h1>Tesla Medellin</h1><!-- Change for a logo?? -->
+        <h1>Tesla Medellin</h1>
         <img src="nav_logo.png" alt="nav_logo">
     </header>
 
@@ -25,17 +22,18 @@
         </ul>
     </nav>
     <img src="home_banner.jpg" alt="home_banner">
-    <main> <!-- Add the website main content here -->
+    
+    <main>
         <h3>BIENVENIDO A TESLA MEDELLIN</h3>
         <h2>CONCESIONARIO AUTORIZADO Y ESPECIALIZADO EN VENTA DE CARROS TESLA NUEVOS Y USADOS</h2>
         <p>Somos el concesionario de Tesla más grande de Colombia y uno de los más grandes de Latinoamérica.
             <br>
-            Te ofrecemos asesoría y venta de carros nuevos, de la marca mas innovadora y prestigiosa del mundo en carros
+            Te ofrecemos asesoría y venta de carros nuevos, de la marca más innovadora y prestigiosa del mundo en carros
             eléctricos; acá podrás encontrar todos los modelos de TESLA.
             <br>
-            Pero si aún quieres mas, nuestros USADOS GARANTIZADOS, SELECCIONADOS Y ALISTADOS te ofrecen total seguridad
+            Pero si aún quieres más, nuestros USADOS GARANTIZADOS, SELECCIONADOS Y ALISTADOS te ofrecen total seguridad
             y garantía.</p>
-        <ul> <!--Bloques lado a lado a modo publicitario-->
+        <ul>
             <li>Financiación</li>
             <li>Asesoría</li>
             <li>Seguro</li>
@@ -60,8 +58,27 @@
         <p>WhatsApp: 300 300 3000</p>
         <p>Email: 0CJ0F@example.com</p>
         <p>&copy; 2023 Tesla. Todos los derechos reservados.</p>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
     </footer>
 
-</body>
+    <script>
+        
+        let mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
 
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block"; 
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
 </html>
