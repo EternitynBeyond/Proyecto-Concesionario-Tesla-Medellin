@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Medellin</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+
+<body>
+
+    <header>
+        <a id="nav_logo" href="home.html">
+            <img src="nav_logo.png" alt="nav_logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="vehicles.html">Vehículos</a></li>
+                <li><a href="articles.html">Artículos</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <p>Por favor llena el siguiente formulario y uno de nuestros agentes se pondrá en contacto contigo.</p><br>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ ]+">
+                <label for="last_name">Apellido:</label>
+                <input type="text" id="last_name" name="last_name" required pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ ]+">
+                <label for="phone_number">Teléfono:</label>
+                <input type="tel" id="phone_number" name="phone_number" required pattern="[0-9]{10}">
+                <label for="email_address">Correo electrónico:</label>
+                <input type="email" id="email_address" name="email_address" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <aside>
+            <h1><strong>Contacto</strong></h1>
+            <p><strong>WhatsApp:</strong> 304 443 0545</p>
+            <p><strong>Email:</strong> marioecp1994@gmail.com</p>
+            <p><strong>Dirección:</strong> Cra. 84 # 33AA-1</p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Concesionario Tesla Medellin. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
