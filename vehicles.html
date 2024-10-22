@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Medellin - Vehículos en Venta</title>
+    <link rel="stylesheet" href="./vehicles.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="home.html"><img id="nav_logo" src="other_images/nav_logo.png" alt="nav_logo"></a>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="vehicles.html">Vehículos</a></li>
+                <li><a href="articles.html">Artículos</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="section_model_s">
+            <div class="image_container">
+            <h2>Model S</h2>
+            <img src="vehicles/tesla_model_s.jpg" alt="tesla_model_s">
+            </div>
+        </section>
+
+        <section id="section_model_3">
+            <div class="image_container">
+            <h2>Model 3</h2>
+            <img src="vehicles/tesla_model_3.jpg" alt="tesla_model_3">
+            </div>
+        </section>
+
+        <section id="section_model_x">
+            <div class="image_container">
+            <h2>Model X</h2>
+            <img src="vehicles/tesla_model_x.jpg" alt="tesla_model_x">
+            </div>
+        </section>
+
+        <section id="section_model_y">
+            <div class="image_container">
+            <h2>Model Y</h2>
+            <img src="vehicles/tesla_model_y.jpg" alt="tesla_model_y">
+            </div>
+        </section>
+
+        <section id="section_cybertruck">
+            <div class="image_container">
+            <h2>Cybertruck</h2>
+            <img src="vehicles/tesla_cybertruck.jpg" alt="tesla_cybertruck">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>Contacto</h2>
+        <p>WhatsApp: 304 443 0545</p>
+        <p>Email: marioecp1994@gmail.com</p>
+        <p>&copy; 2024 Concesionario Tesla Medellin. Todos los derechos reservados.</p>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
+    </footer>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+</html>
