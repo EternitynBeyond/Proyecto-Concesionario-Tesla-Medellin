@@ -47,11 +47,13 @@ nav ul li a:hover {
 #home_banner {
     width: 100%;
     height: auto;
+    padding: 0px;
 }
 
 #tesla_cybertruck {
     width: 100%;
     height: auto;
+    padding: 0px;
 }
 
 footer {
