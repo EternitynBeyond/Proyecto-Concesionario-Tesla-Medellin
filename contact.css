@@ -7,6 +7,7 @@ body {
 
 header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     justify-content: space-between; 
     padding: 20px;
@@ -14,27 +15,10 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
-    width: 1px; 
-    height: 1px;
-    margin: -1px; 
-    padding: 0; 
-    border: 0; 
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap; 
-}
-
 #nav_logo {
     max-width: auto; 
     height: 50px; 
     object-fit: contain;
-}
-
-nav {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0; 
 }
 
 nav ul {
@@ -50,13 +34,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #0d1218;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #0056b3;
+    color: #a50404;
 }
 
 #home_banner {
@@ -82,7 +66,7 @@ section {
     margin: 0px auto;
     padding: 20px;
     background-color: #f9f9f9;
-    border: 2px solid #007BFF;
+    border: 2px solid #221f1f;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   }
@@ -115,7 +99,7 @@ section {
     display: block;
     width: 100%;
     height: 40px;
-    background-color: #085cb6;
+    background-color: #a50404;
     color: #fff;
     padding: 10px;
     border: none;
@@ -124,7 +108,7 @@ section {
   }
   
   #contact-form button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #920000;
   }
 
 aside {
@@ -133,10 +117,10 @@ aside {
 }
 
 footer {
-    background-color: #007BFF;
+    background-color: #242424;
     color: white;
-    text-align: center;
-    padding: 20px 0;
+    text-align: left;
+    padding: 20px 20px;
 }
 
 footer h2 {
@@ -145,6 +129,10 @@ footer h2 {
 
 footer p {
     margin: 5px 0;
+}
+
+#footer_copyright {
+    text-align: center;
 }
 
 #myBtn {

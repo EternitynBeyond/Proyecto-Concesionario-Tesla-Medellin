@@ -7,6 +7,7 @@ body {
 
 header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     justify-content: space-between; 
     padding: 20px;
@@ -18,12 +19,6 @@ header {
     max-width: auto; 
     height: 50px; 
     object-fit: contain;
-}
-
-nav {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0; 
 }
 
 nav ul {
@@ -39,13 +34,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #0d1218;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #0056b3;
+    color: #a50404;
 }
 
 #home_banner {
@@ -76,12 +71,11 @@ nav ul li a:hover {
     border-radius: 5px; /* Optional: round the corners */
 }
 
-
 footer {
-    background-color: #007BFF;
+    background-color: #242424;
     color: white;
-    text-align: center;
-    padding: 20px 0;
+    text-align: left;
+    padding: 20px 20px;
 }
 
 footer h2 {
@@ -90,6 +84,10 @@ footer h2 {
 
 footer p {
     margin: 5px 0;
+}
+
+#footer_copyright {
+    text-align: center;
 }
 
 #myBtn {

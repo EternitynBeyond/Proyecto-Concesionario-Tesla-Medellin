@@ -10,19 +10,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    justify-content: space-between; 
+    padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 #nav_logo {
-    width: 200px; 
-    height: auto; 
+    max-width: auto; 
+    height: 50px; 
+    object-fit: contain;
 }
 
 nav ul {
     display: flex;
     list-style: none;
+    margin: 0;
     padding: 0;
 }
 
@@ -32,13 +35,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #0d1218;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #0056b3;
+    color: #a50404;
 }
 
 #home_banner {
@@ -49,4 +52,23 @@ nav ul li a:hover {
 #tesla_x {
     width: 100%;
     height: auto;
+}
+
+footer {
+    background-color: #242424;
+    color: white;
+    text-align: left;
+    padding: 20px 20px;
+}
+
+footer h2 {
+    margin: 10px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+#footer_copyright {
+    text-align: center;
 }
