@@ -6,28 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tesla Medellin</title>
     <link rel="stylesheet" href="/vista/css/tesla_s.css">
-    <link rel="icon" type="tesla_logo" href="/vista/imagenes/other_images/tesla_logo.ico">
+    <link rel="icon" type="image/png" href="/vista/imagenes/other_images/tesla_logo.ico">
 </head>
 
 <body>
-    <body>
-        <header>               
-            <a href="/vista/html/home.html">
-                <img src="/vista/imagenes/other_images/nav_logo.png" alt="nav_logo" id="nav_logo">
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="/vista/html/home.html">Home</a></li>
-                    <li><a href="/vista/html/vehicles.html">Vehículos</a></li>
-                    <li><a href="/vista/html/articles.html">Artículos</a></li>
-                    <li><a href="/vista/html/contact.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </header> 
+    <header>               
+        <a href="/vista/html/home.html">
+            <img src="/vista/imagenes/other_images/nav_logo.png" alt="nav_logo" id="nav_logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="/vista/html/home.html">Home</a></li>
+                <li><a href="/vista/html/vehicles.html">Vehículos</a></li>
+                <li><a href="/vista/html/articles.html">Artículos</a></li>
+                <li><a href="/vista/html/contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <img id="tesla_s" src="/vista/imagenes/vehicles/tesla_model_s.jpg" alt="tesla_s">
 
     <section>
         <h1>Diseño interior</h1>
+        <section class="image-text-grid">
+            <figure class="image-text-row left-image">
+                <img src="/vista/imagenes/vehicles/TeslaModelS_interior1.png" alt="TeslaModelS_interior1">
+                <figcaption>
+                    <p>Descripción del contenido relacionado con la imagen 1.</p>
+                </figcaption>
+            </figure>
+            <figure class="image-text-row right-image">
+                <figcaption>
+                    <p>Descripción del contenido relacionado con la imagen 2.</p>
+                </figcaption>
+                <img src="/vista/imagenes/vehicles/TeslaModelS_interior2.png" alt="TeslaModelS_interior2">
+            </figure>
+            <figure class="image-text-row left-image">
+                <img src="/vista/imagenes/vehicles/TeslaModelS_interior3.png" alt="TeslaModelS_interior3">
+                <figcaption>
+                    <p>Descripción del contenido relacionado con la imagen 3.</p>
+                </figcaption>
+            </figure>               
+        </section>
     </section>
 
     <footer>
@@ -39,7 +59,5 @@
 
         <button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
     </footer>
-
 </body>
-
 </html>

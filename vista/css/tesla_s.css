@@ -1,4 +1,3 @@
-
 body {
     background: linear-gradient(135deg, #ffffff, #f0f0f0);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -11,7 +10,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    justify-content: space-between; 
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -45,12 +43,6 @@ nav ul li a:hover {
     color: #a50404;
 }
 
-#home_banner {
-    width: 100%;
-    height: auto;
-    padding: 0px;
-}
-
 #tesla_s {
     width: 100%;
     height: auto;
@@ -77,6 +69,47 @@ footer p {
 }
 
 h1 {
-    display: flex;    
+    display: flex;
+    justify-content: center;    
     align-items: center;
+}
+
+.image-text-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre las filas */
+}
+
+.image-text-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.image-text-row img {
+    max-width: 300px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    border-radius: 10px;
+}
+
+figcaption {
+    max-width: 600px;
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-left: 20px; /* Espacio entre imagen y texto */
+}
+
+/* Clases para alternar la alineación */
+.left-image {
+    flex-direction: row; /* Imagen a la izquierda */
+}
+
+.right-image {
+    flex-direction: row-reverse; /* Imagen a la derecha */
+}
+
+@media (max-width: 768px) {
+    .image-text-row {
+        flex-direction: column; /* Cambia la dirección a columnas en pantallas pequeñas */
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
 }
