@@ -53,6 +53,7 @@ nav ul li a:hover {
 #tesla_3 {
     width: 100%;
     height: auto;
+    object-fit: cover;
     padding: 0px;
 }
 
