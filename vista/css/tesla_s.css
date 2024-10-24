@@ -75,3 +75,8 @@ footer p {
 #footer_copyright {
     text-align: center;
 }
+
+h1 {
+    display: flex;    
+    align-items: center;
+}
