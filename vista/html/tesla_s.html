@@ -64,64 +64,61 @@
                 </figcaption>
             </figure>
             <h2>Especificaciones del Model S</h2>
-    <table>
-        <tr>
-            <th>Propulsión</th>
-            <th>Autonomía (estimado de la EPA)</th>
-        </tr>
-        <tr>
-            <td>Dual Motor</td>
-            <td>402 milla(s)</td>
-        </tr>
-        <tr>
-            <th>Aceleración</th>
-            <th>Velocidad máxima</th>
-        </tr>
-        <tr>
-            <td>3.1 s de 0 a 60 mph</td>
-            <td>130 mph</td>
-        </tr>
-        <tr>
-            <th>Potencia Máxima</th>
-            <th>Coeficiente de arrastre</th>
-        </tr>
-        <tr>
-            <td>670 hp</td>
-            <td>0.208 Cd</td>
-        </tr>
-        <tr>
-            <th>Peso (masa en vacío)</th>
-            <th>Carga</th>
-        </tr>
-        <tr>
-            <td>4,560 libras</td>
-            <td>28 pies cúbicos</td>
-        </tr>
-        <tr>
-            <th>Rines</th>
-            <th>Máximo de Supercharger</th>
-        </tr>
-        <tr>
-            <td>19" o 21"</td>
-            <td>250 kW</td>
-        </tr>
-        <tr>
-            <th>Garantía</th>
-            <th>Otro</th>
-        </tr>
-        <tr>
-            <td>Vehículo básico: 4 años u 80,000 km, lo que ocurra primero</td>
-            <td>Manual del propietario: 1 Menos el rodaje inicial</td>
-        </tr>
-        <tr>
-            <td>Batería y unidad de potencia: 8 años o 240,000 km, lo que ocurra primero</td>
-            <td>2 cuando está equipado con actualizaciones de hardware</td>
-        </tr>
-    </table>
+                <table>
+                    <tr>
+                        <th>Propulsión</th>
+                        <th>Autonomía (estimado de la EPA)</th>
+                    </tr>
+                    <tr>
+                        <td>Dual Motor</td>
+                        <td>402 milla(s)</td>
+                    </tr>
+                    <tr>
+                        <th>Aceleración</th>
+                        <th>Velocidad máxima</th>
+                    </tr>
+                    <tr>
+                        <td>3.1 s de 0 a 60 mph</td>
+                        <td>130 mph</td>
+                    </tr>
+                    <tr>
+                        <th>Potencia Máxima</th>
+                        <th>Coeficiente de arrastre</th>
+                    </tr>
+                    <tr>
+                        <td>670 hp</td>
+                        <td>0.208 Cd</td>
+                    </tr>
+                    <tr>
+                        <th>Peso (masa en vacío)</th>
+                        <th>Carga</th>
+                    </tr>
+                    <tr>
+                        <td>4,560 libras</td>
+                        <td>28 pies cúbicos</td>
+                    </tr>
+                    <tr>
+                        <th>Rines</th>
+                        <th>Máximo de Supercharger</th>
+                    </tr>
+                    <tr>
+                        <td>19" o 21"</td>
+                        <td>250 kW</td>
+                    </tr>
+                    <tr>
+                        <th>Garantía</th>
+                    </tr>
+                    <tr>
+                        <td>Vehículo básico: 4 años u 80,000 km, lo que ocurra primero</td>
+                    </tr>
+                    <tr>
+                        <td>Batería y unidad de potencia: 8 años o 240,000 km, lo que ocurra primero</td>
+                    </tr>
+                </table>
 
-    <p>Algunas funciones del vehículo que utilizan gran cantidad de datos requieren conectividad estándar como mínimo. Estas incluyen los mapas, la navegación y los comandos de voz. El acceso a funciones que usan datos móviles y licencias de terceros está sujeto a cambios.</p>            
-        </section>
-    </section>
+                <p>Algunas funciones del vehículo que utilizan gran cantidad de datos requieren conectividad estándar como mínimo. Estas incluyen los mapas, la navegación y los comandos de voz. El acceso a funciones que usan datos móviles y licencias de terceros está sujeto a cambios.</p>            
+                    </section>
+                </section>
 
     <footer>
         <h3>Contacto</h3>
@@ -129,8 +126,26 @@
         <p><strong>Email: </strong>marioecp1994@gmail.com</p>
         <br>
         <p id="footer_copyright">&copy; 2024 Concesionario Tesla Medellin. Todos los derechos reservados.</p>
-
         <button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
     </footer>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 </html>
