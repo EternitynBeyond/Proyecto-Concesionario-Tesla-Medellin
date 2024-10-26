@@ -52,23 +52,23 @@ nav ul li a:hover {
 .image_container { 
     width: 100%;
     position: relative;
-    display: block; /* Use block to allow the container to take full width */
+    display: block;
 }
 
 .image_container img {
-    width: 100%; /* Make the image fill the container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Removes bottom space/gap caused by inline images */
+    width: 100%;
+    height: auto; 
+    display: block; 
 }
 
 .image_container h2 {
     position: absolute;
-    top: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
-    color: white; /* Change color for better visibility */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: add a background for contrast */
-    padding: 5px; /* Optional: add some padding */
-    border-radius: 5px; /* Optional: round the corners */
+    top: 10px; 
+    right: 10px; 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px; 
+    border-radius: 5px;
 }
 
 footer {

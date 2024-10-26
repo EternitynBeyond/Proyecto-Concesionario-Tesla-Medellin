@@ -24,7 +24,101 @@
                 </ul>
             </nav>
         </header> 
-    <img id="tesla_x" src="/vista/imagenes/vehicles/tesla_model_x.jpg" alt="tesla_x">
+    <img id="tesla_x" src="/vista/imagenes/vehicles/Tesla X/tesla_model_x.jpg" alt="tesla_x">
+
+    <section>
+        <h1>Tesla Model X</h1>
+            <div>
+                <p>
+                    El Model X tiene un coeficiente de arrastre de solo 0.24 Cd, el más bajo de cualquier SUV de producción en el planeta. Los elementos aerodinámicos refinados funcionan junto con los nuevos rines y llantas para ayudarte a viajar más lejos con un manejo más cómodo y preciso.
+                </p>
+            </div>
+        <h2>Diseño interior</<h2></h2>
+        <img class="tesla_model_x_interior_A" src="/vista/imagenes/vehicles/Tesla X/tesla_model_x_interior_A.jpg" alt="tesla_model_x_interior_A">
+        <section class="image-text-grid">
+            <figure class="image-text-row left-image">
+                <img src="/vista/imagenes/vehicles/Tesla X/TeslaModelX_interior1.png" alt="TeslaModelX_interior1">
+                <figcaption>
+                    <h3><strong>Mantente conectado</strong></h3>
+                    <p>
+                        Conéctate al instante con Bluetooth para múltiples dispositivos o utiliza las funciones de carga rápida, ya sea inalámbrica o a través del USB-C de 36 W.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="image-text-row right-image">
+                <figcaption>
+                    <h3><strong>Sonido sublime</strong></h3>
+                    <p>
+                        Un sistema de audio de 22 bocinas y 960 vatios con reducción activa de ruido en la carretera ofrece la mejor experiencia auditiva dondequiera que estés.
+                    </p>
+                </figcaption>
+                <img src="/vista/imagenes/vehicles/Tesla X/TeslaModelX_interior2.png" alt="TeslaModelX_interior2">
+            </figure>
+            <figure class="image-text-row left-image">
+                <img src="/vista/imagenes/vehicles/Tesla X/TeslaModelX_interior3.png" alt="TeslaModelX_interior3">
+                <figcaption>
+                    <h3><strong>Aún más capaz</strong></h3>
+                    <p>                        
+                        Con un amplio almacenamiento y una capacidad de remolque de 2267 kg, el Model X está construido para una máxima utilidad. Las puertas delanteras se abren y cierran automáticamente, las puertas Falcon Wing permiten una carga más fácil y cuenta con un enganche de remolque como equipamiento estándar que te permite llevar tu equipo a donde quiera que vayas. 
+                    </p>
+                </figcaption>
+            </figure>
+            <h2>Especificaciones del Model 3</h2>
+                <table>
+                    <tr>
+                        <th>Propulsión</th>
+                        <th>Autonomía (estimado de la EPA)</th>
+                    </tr>
+                    <tr>
+                        <td>Dual Motor con tracción en todas las ruedas</td>
+                        <td>524 km</td>
+                    </tr>
+                    <tr>
+                        <th>Aceleración</th>
+                        <th>Velocidad máxima</th>
+                    </tr>
+                    <tr>
+                        <td>De 0 a 96 km/​h en 3.1 seg.</td>
+                        <td>262 kph</td>
+                    </tr>
+                    <tr>
+                        <th>Potencia Máxima</th>
+                        <th>Coeficiente de arrastre</th>
+                    </tr>
+                    <tr>
+                        <td>700 hp</td>
+                        <td>0.306 Cd</td>
+                    </tr>
+                    <tr>
+                        <th>Peso (masa en vacío)</th>
+                        <th>Carga</th>
+                    </tr>
+                    <tr>
+                        <td>2267 kg</td>
+                        <td>682 litros</td>
+                    </tr>
+                    <tr>
+                        <th>Rines</th>
+                        <th>Máximo de Supercharger</th>
+                    </tr>
+                    <tr>
+                        <td>Rines Warp de 20"</td>
+                        <td>250 kW</td>
+                    </tr>
+                    <tr>
+                        <th>Garantía</th>
+                    </tr>
+                    <tr>
+                        <td>Vehículo básico: 4 años u 80,000 km, lo que ocurra primero</td>
+                    </tr>
+                    <tr>
+                        <td>Batería y unidad de potencia 8 años o 240,000 km, lo que ocurra primero</td>
+                    </tr>
+                </table>
+
+                <p>Algunas funciones del vehículo que utilizan gran cantidad de datos requieren conectividad estándar como mínimo. Estas incluyen los mapas, la navegación y los comandos de voz. El acceso a funciones que usan datos móviles y licencias de terceros está sujeto a cambios.</p>            
+                    </section>
+                </section>
 
     <footer>
         <h3>Contacto</h3>
@@ -32,10 +126,27 @@
         <p><strong>Email: </strong>concesionarioteslamedellin@gmail.com</p>
         <br>
         <p id="footer_copyright">&copy; 2024 Concesionario Tesla Medellin. Todos los derechos reservados.</p>
-
         <button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
     </footer>
 
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>
