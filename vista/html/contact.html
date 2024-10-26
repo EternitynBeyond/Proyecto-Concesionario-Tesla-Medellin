@@ -54,12 +54,32 @@
 
     <footer>
         <h3>Contacto</h3>
-        <p><strong>WhatsApp: </strong>304-443-0545</p>
-        <p><strong>Email: </strong>concesionarioteslamedellin@gmail.com</p>
+        <p><strong>WhatsApp: </strong>304 443 0545</p>
+        <p><strong>Correo electrónico: </strong><a href="mailto:concesionarioteslamedellin@gmail.com">concesionarioteslamedellin@gmail.com</a></p>
         <br>
         <p id="footer_copyright">&copy; 2024 Concesionario Tesla Medellin. Todos los derechos reservados.</p>
-
         <button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
     </footer>
 
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
 </body>
+
+</html>
