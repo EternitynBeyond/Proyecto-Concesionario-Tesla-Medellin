@@ -24,7 +24,101 @@
                 </ul>
             </nav>
         </header> 
-    <img id="tesla_cybertruck" src="/vista/imagenes/vehicles/tesla_cybertruck.jpg" alt="tesla_cybertruck">
+    <img id="tesla_cybertruck" src="/vista/imagenes/vehicles/Tesla Cybertruck/tesla_cybertruck.jpg" alt="tesla_cybertruck">
+
+    <section>
+        <h1>Tesla Cybertruck</h1>
+            <div>
+                <p>
+                    Lo suficientemente duradero y resistente para ir a cualquier parte. Ataca cualquier camino con una suspensión neumática que se adapta electrónicamente, tiene 305 mm de recorrido y 406 mm de altura libre sobre el suelo.
+                </p>
+            </div>
+        <h2>Diseño interior</<h2></h2>
+        <img class="tesla_model_cybertruck_interior_A" src="/vista/imagenes/vehicles/Tesla Cybertruck/tesla_model_Cybertruck_interior_A.png" alt="tesla_model_cybertruck_interior_A">
+        <section class="image-text-grid">
+            <figure class="image-text-row left-image">
+                <img src="/vista/imagenes/vehicles/Tesla Cybertruck/TeslaModelCybertruck_interior1.png" alt="TeslaModelCybertruck_interior1">
+                <figcaption>
+                    <h3><strong>Resistente por fuera y cómodo por dentro</strong></h3>
+                    <p>
+                        Disfruta de un interior que tiene nuestra tecnología y entretenimiento más avanzados.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="image-text-row right-image">
+                <figcaption>
+                    <h3><strong>Un cine sobre ruedas</strong></h3>
+                    <p>
+                        Una enorme pantalla táctil infinity de 18.5" en la parte delantera y una pantalla táctil de 9.4" en la parte trasera con una interfaz de usuario completamente nueva.
+                    </p>
+                </figcaption>
+                <img src="/vista/imagenes/vehicles/Tesla Cybertruck/TeslaModelCybertruck_interior2.png" alt="TeslaModelCybertruck_interior2">
+            </figure>
+            <figure class="image-text-row left-image">
+                <img src="/vista/imagenes/vehicles/Tesla Cybertruck/TeslaModelCybertruck_interior3.png" alt="TeslaModelCybertruck_interior3">
+                <figcaption>
+                    <h3><strong>Carga todo</strong></h3>
+                    <p>                        
+                        Carga rápidamente y de manera inalámbrica tu teléfono, computadora portátil o herramientas desde el asiento delantero, el asiento trasero o la caja. Además, tienes puertos USB-C de 65 W y tomacorrientes de 120 V / 240 V.
+                    </p>
+                </figcaption>
+            </figure>
+            <h2>Especificaciones del Cybertruck</h2>
+                <table>
+                    <tr>
+                        <th>Propulsión</th>
+                        <th>Autonomía (WLTP)</th>
+                    </tr>
+                    <tr>
+                        <td>Tracción en todas las ruedas</td>
+                        <td>515 km</td>
+                    </tr>
+                    <tr>
+                        <th>Aceleración</th>
+                        <th>Velocidad máxima</th>
+                    </tr>
+                    <tr>
+                        <td>2.7  segundos de 0 a 100 km/h</td>
+                        <td>209 kph</td>
+                    </tr>
+                    <tr>
+                        <th>Potencia Máxima</th>
+                        <th>Coeficiente de arrastre</th>
+                    </tr>
+                    <tr>
+                        <td>600 hp</td>
+                        <td>0.300 Cd</td>
+                    </tr>
+                    <tr>
+                        <th>Peso (masa en vacío)</th>
+                        <th>Carga</th>
+                    </tr>
+                    <tr>
+                        <td>3104 kg</td>
+                        <td>3423.5 litros</td>
+                    </tr>
+                    <tr>
+                        <th>Rines</th>
+                        <th>Máximo de Supercharger</th>
+                    </tr>
+                    <tr>
+                        <td>21"</td>
+                        <td>250 kW</td>
+                    </tr>
+                    <tr>
+                        <th>Garantía</th>
+                    </tr>
+                    <tr>
+                        <td>Vehículo básico: 4 años u 80,000 km, lo que ocurra primero</td>
+                    </tr>
+                    <tr>
+                        <td>Batería y unidad de potencia 8 años o 192,000 km, lo que ocurra primero</td>
+                    </tr>
+                </table>
+
+                <p>Algunas funciones del vehículo que utilizan gran cantidad de datos requieren conectividad estándar como mínimo. Estas incluyen los mapas, la navegación y los comandos de voz. El acceso a funciones que usan datos móviles y licencias de terceros está sujeto a cambios.</p>            
+                    </section>
+                </section>
 
     <footer>
         <h3>Contacto</h3>
@@ -32,10 +126,27 @@
         <p><strong>Email: </strong>concesionarioteslamedellin@gmail.com</p>
         <br>
         <p id="footer_copyright">&copy; 2024 Concesionario Tesla Medellin. Todos los derechos reservados.</p>
-
         <button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
     </footer>
 
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>
