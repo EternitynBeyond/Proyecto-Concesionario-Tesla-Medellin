@@ -24,7 +24,101 @@
                 </ul>
             </nav>
         </header> 
-    <img id="tesla_y" src="/vista/imagenes/vehicles/tesla_model_y.jpg" alt="tesla_y">
+    <img id="tesla_y" src="/vista/imagenes/vehicles/Tesla Y/tesla_model_y.jpg" alt="tesla_y">
+
+    <section>
+        <h1>Tesla Model Y</h1>
+            <div>
+                <p>
+                    Disfruta de tu viaje en carretera. Con un estimado de hasta 565 km de autonomía con una sola carga, es probable que necesites un descanso antes que tu Model Y. El Dual Motor con tracción en las cuatro ruedas garantiza que estarás listo para enfrentar cualquier condición del camino. 
+                </p>
+            </div>
+        <h2>Diseño interior</<h2></h2>
+        <img class="tesla_model_y_interior_A" src="/vista/imagenes/vehicles/Tesla Y/tesla_model_y_interior_A.png" alt="tesla_model_y_interior_A">
+        <section class="image-text-grid">
+            <figure class="image-text-row left-image">
+                <img src="/vista/imagenes/vehicles/Tesla Y/TeslaModelY_interior1.png" alt="TeslaModelY_interior1">
+                <figcaption>
+                    <h3><strong>Diseñado para tu seguridad</strong></h3>
+                    <p>
+                        Nuestros vehículos están diseñados para ser los más seguros del mundo. Con una probabilidad de volcadura y lesiones de los ocupantes extremadamente bajas, el Model Y tiene las calificaciones de seguridad más altas posibles.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="image-text-row right-image">
+                <figcaption>
+                    <h3><strong>Cabina amplia</strong></h3>
+                    <p>
+                        Una posición elevada del asiento y un tablero bajo ofrecen al conductor una visión total del camino. El espacio adicional para las piernas, el amplio espacio de almacenamiento y un techo panorámico hecho de vidrio acústico con protección contra el resplandor, el calor y los rayos UV, crean un viaje silencioso y cómodo. 
+                    </p>
+                </figcaption>
+                <img src="/vista/imagenes/vehicles/Tesla Y/TeslaModelY_interior2.png" alt="TeslaModelY_interior2">
+            </figure>
+            <figure class="image-text-row left-image">
+                <img src="/vista/imagenes/vehicles/Tesla Y/TeslaModelY_interior3.png" alt="TeslaModelY_interior3">
+                <figcaption>
+                    <h3><strong>Lo ideal es no tener ningún accidente</strong></h3>
+                    <p>                        
+                        Las Funciones de seguridad activas pueden ayudar a reducir la gravedad del impacto o evitar por completo que ocurran accidentes. Las funciones como la Alerta de colisión frontal, el Frenado activo de emergencia y la Prevención de salida de carril vienen de serie. 
+                    </p>
+                </figcaption>
+            </figure>
+            <h2>Especificaciones del Model Y</h2>
+                <table>
+                    <tr>
+                        <th>Propulsión</th>
+                        <th>Autonomía (WLTP)</th>
+                    </tr>
+                    <tr>
+                        <td>Dual Motor con tracción en todas las ruedas</td>
+                        <td>514 km</td>
+                    </tr>
+                    <tr>
+                        <th>Aceleración</th>
+                        <th>Velocidad máxima</th>
+                    </tr>
+                    <tr>
+                        <td>De 0 a 100 km/​h en 3.7 seg.</td>
+                        <td>200 kph</td>
+                    </tr>
+                    <tr>
+                        <th>Potencia Máxima</th>
+                        <th>Coeficiente de arrastre</th>
+                    </tr>
+                    <tr>
+                        <td>650 hp</td>
+                        <td>0.300 Cd</td>
+                    </tr>
+                    <tr>
+                        <th>Peso (masa en vacío)</th>
+                        <th>Carga</th>
+                    </tr>
+                    <tr>
+                        <td>1995 kg</td>
+                        <td>2158 litros</td>
+                    </tr>
+                    <tr>
+                        <th>Rines</th>
+                        <th>Máximo de Supercharger</th>
+                    </tr>
+                    <tr>
+                        <td>21"</td>
+                        <td>250 kW</td>
+                    </tr>
+                    <tr>
+                        <th>Garantía</th>
+                    </tr>
+                    <tr>
+                        <td>Vehículo básico: 4 años u 80,000 km, lo que ocurra primero</td>
+                    </tr>
+                    <tr>
+                        <td>Batería y unidad de potencia 8 años o 192,000 km, lo que ocurra primero</td>
+                    </tr>
+                </table>
+
+                <p>Algunas funciones del vehículo que utilizan gran cantidad de datos requieren conectividad estándar como mínimo. Estas incluyen los mapas, la navegación y los comandos de voz. El acceso a funciones que usan datos móviles y licencias de terceros está sujeto a cambios.</p>            
+                    </section>
+                </section>
 
     <footer>
         <h3>Contacto</h3>
@@ -32,10 +126,27 @@
         <p><strong>Email: </strong>concesionarioteslamedellin@gmail.com</p>
         <br>
         <p id="footer_copyright">&copy; 2024 Concesionario Tesla Medellin. Todos los derechos reservados.</p>
-
         <button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
     </footer>
 
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>
